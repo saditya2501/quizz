@@ -14,7 +14,7 @@ public class FunctionChallenge {
 
         Function<Integer, Integer> sub = x -> x - 2;
 
-        Function<Integer, Integer> div = x -> x /
+      Function<Integer, Integer> div = x -> x;
 
         Function<Integer, Integer> func = add.andThen(sub).andThen(div);
 
