@@ -19,7 +19,7 @@ public class FunctionChallenge {
         Function<Integer, Integer> func = add.andThen(sub).andThen(div);
 
 
-
+//aditya
         System.out.println(func.apply(2));
 
     }
